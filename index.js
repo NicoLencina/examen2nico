@@ -1,9 +1,9 @@
 let caja = document.querySelector(".nuevosDivs");
-let numeroDivs = document.querySelector(".numeroIngresado");
+let cantidadDivs = document.querySelector(".numeroIngresado");
 
-let btnCrear = document.querySelector(".Crear");
-btnCrear.addEventListener("click", () => {
-  let divCreado = numeroDivs.value;
+let Crear = document.querySelector(".Crear");
+Crear.addEventListener("click", () => {
+  let divCreado = cantidadDivs.value;
   crearDivs(divCreado);
 });
 
