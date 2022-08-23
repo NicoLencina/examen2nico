@@ -1,0 +1,19 @@
+body {
+  background-color: grey;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.divCrear {
+  text-align: center;
+}
+.nuevosDivs {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.divCreado {
+  margin: 10px;
+  border-radius: 15px;
+  width: 60px;
+  height: 45px;
+  background-color: red;
+}
